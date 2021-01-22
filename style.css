@@ -68,9 +68,30 @@ a{
     padding: 4px 0  0 0;
 }
 
-svg{
+header svg{
+
     border-radius: 50%;
-    
     display: inline-block;
 }
+
+div#searchbox{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    justify-content: space-between;
+}
+
+div#searchbox div {
+    padding: 10px;
+}
+
+.center {
+    width: auto;
+    max-width: 584px;
+    margin: 0 auto;
+}
+
 
