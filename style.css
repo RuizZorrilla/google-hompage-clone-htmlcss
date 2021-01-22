@@ -92,6 +92,50 @@ div#searchbox div {
     width: auto;
     max-width: 584px;
     margin: 0 auto;
+    display: block;
 }
 
+.center div:nth-of-type(2){
+    padding: 26px;
+    margin-left: 20%;
 
+}
+.center button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid rgba(169, 169, 169, 0.411);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-flex;
+    right: 0;
+    justify-content: space-between;
+    background-color: rgba(224, 223, 223, 0.671);
+    margin: 0;
+}
+
+footer a{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(63, 62, 62);
+}
+
+footer div:nth-of-type(2){
+    display: inline-flex;
+    max-width: fit-content;
+    float: right;
+}
